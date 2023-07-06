@@ -1,7 +1,9 @@
 {
   "name": "componly-nextjs-test",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "repository": "https://github.com/manufac-analytics/componly-nextjs-test.git",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
