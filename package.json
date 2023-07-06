@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "scan": "componly scan --design-systems-path=./.componly/ds.json"
   },
   "dependencies": {
     "@types/node": "20.4.0",
@@ -27,6 +28,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@componly/cli": "^1.19.0",
     "@storybook/addon-essentials": "7.0.26",
     "@storybook/addon-interactions": "7.0.26",
     "@storybook/addon-links": "7.0.26",
