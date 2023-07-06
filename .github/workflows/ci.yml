@@ -3,7 +3,7 @@ name: Componly
 on:
   push:
     branches:
-      - main
+      - qur786/#1-Add-CI/CD-In-The-NextJS-App-And-Test-It-Part3
 
 jobs:
   build:
