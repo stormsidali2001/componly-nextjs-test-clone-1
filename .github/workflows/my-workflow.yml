@@ -12,6 +12,7 @@ jobs:
         matrix:
           workspaces:
 
+           - ./
 
     continue-on-error: true
 
