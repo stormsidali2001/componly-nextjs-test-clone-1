@@ -11,8 +11,7 @@ jobs:
     strategy:
         matrix:
           workspaces:
-          - ./
-           - ./
+
 
     continue-on-error: true
 
