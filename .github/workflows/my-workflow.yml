@@ -84,8 +84,8 @@ jobs:
             preScan().catch(console.log);
 
       - name: scan
-        id: componly-scan
-        run: yarn componly scan 
+        id: componly-scan 
+        run: yarn componly scan --design-systems-path ./.componly/ds.json
 
       - name: Post scan.json
         id: post-scan
