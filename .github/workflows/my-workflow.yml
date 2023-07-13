@@ -33,7 +33,7 @@ jobs:
           if [[ "${{ matrix.workspaces}}" != "empty" ]]; then
               pwd
               pushd ${{ matrix.workspaces }}
-              yarn install
+              yarn cache clean && yarn install
               popd
           else
               echo "No workspaces to install. Running 'yarn install' in the root directory."
