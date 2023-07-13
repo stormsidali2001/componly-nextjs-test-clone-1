@@ -85,7 +85,7 @@ jobs:
 
       - name: scan
         id: componly-scan
-        run: yarn componly scan 
+        run: yarn componly scan -ds ./.componly/ds.json
 
       - name: Post scan.json
         id: post-scan
